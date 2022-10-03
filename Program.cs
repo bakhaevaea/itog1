@@ -28,7 +28,8 @@ class MyNewClass
         {
             stringArrLen3[i] = stringArr[indexArr[i]];
         }
-
+        
+        // выводим готовый массив
         Console.WriteLine(String.Join("', '", stringArrLen3));
     }
 }
